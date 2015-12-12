@@ -1,0 +1,122 @@
+﻿
+* {
+margin-top:0;
+margin-left:0;
+margin-right:0;	
+}
+
+body {
+
+background-color: #73695b;
+}
+
+::selection{
+  background-color: #FF6600;
+  color: white;
+}
+
+
+::-moz-selection {
+  background-color: #FF6600;
+  color: white;
+}
+
+
+/*Menu*/
+header {
+background-color:#504a3f;
+height:155px;
+position : fixed;
+width : 100%;
+}
+
+#logo  {
+background-image:url(images/logoheader.png);
+width: 150px;
+height: 150px;
+background-repeat: no-repeat;
+margin-left:40px;
+}
+
+
+
+
+#menu {
+margin-top: -60px;
+margin-left:180px;
+float:left;
+
+}
+
+li a {
+color:#95846d;
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+text-decoration:none;
+}
+
+li a:hover {
+color:#f16529;
+text-decoration:none;
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+}
+
+#menu li {
+border-radius:3px;
+height:20px;
+padding:10px;
+padding-top:5px;
+background-color: #484237;
+margin:4px;
+-moz-box-shadow: 0px 3px 0px 0px #3e392f;
+-webkit-box-shadow: 0px 3px 0px 0px #3e392f;
+-o-box-shadow: 0px 3px 0px 0px #3e392f;
+box-shadow: 0px 3px 0px 0px #3e392f;
+list-style-type: none;
+display : inline-block;
+}
+
+
+/*Fin Menu*/
+
+
+.intro {
+
+font-style : italic;
+
+}
+
+#contenant {
+	
+	margin :0%;
+}
+
+#page
+{
+margin-top: 5%;
+padding-left: 1%;
+border-radius : 10px/10px;
+margin-left : 8%;
+width: 900px;
+background-color : #EFD9BB;
+position : fixe;
+box-shadow: 0px 2px 5px #1c1a19;
+border-radius: 5px;
+
+}
+
+
+
+li img {
+	width:400px;
+	height: 200px;
+	padding-left: 150px;
+	padding-top : 10px;
+	}
+
+ul li{
+	
+	margin : 15px 10px; 			
+	list-style-image : url(puces.png)
+}
