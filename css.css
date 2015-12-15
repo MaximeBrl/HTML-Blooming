@@ -28,6 +28,7 @@ background-color:#504a3f;
 height:155px;
 position : fixed;
 width : 100%;
+top:0;
 }
 
 #logo  {
@@ -39,13 +40,18 @@ margin-left:40px;
 }
 
 
-
+#menuresponsive {
+  position: relative;
+  
+}
 
 #menu {
 margin-top: -60px;
 margin-left:180px;
-float:left;
-
+/*float:left;*/
+position : absolute;
+bottom : 0;
+left:0;
 }
 
 li a {
@@ -89,16 +95,14 @@ font-style : italic;
 
 #contenant {
 	
-	margin :0%;
+	margin-top :180px;
 }
 
 #page
 {
-margin-top: 5%;
 padding-left: 1%;
 border-radius : 10px/10px;
-margin-left : 8%;
-width: 900px;
+margin: 0 8%;
 background-color : #EFD9BB;
 position : fixe;
 box-shadow: 0px 2px 5px #1c1a19;
