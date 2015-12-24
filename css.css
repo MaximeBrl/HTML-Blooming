@@ -1,12 +1,14 @@
-﻿
+﻿@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 * {
 margin-top:0;
 margin-left:0;
-margin-right:0;	
+margin-right:0;
+margin-bottom:0;
 }
 
-body {
 
+body {
 background-color: #73695b;
 }
 
@@ -21,11 +23,18 @@ background-color: #73695b;
   color: white;
 }
 
+h1 {
+font-size:23px;
+text-align:center;
+color:#e44d26;
+text-shadow: 1px 1px #fff7ec;
+font-family: 'Montserrat', sans-serif;
+}
 
 /*Menu*/
 header {
 background-color:#504a3f;
-height:155px;
+height:100px;
 position : fixed;
 width : 100%;
 top:0;
@@ -33,30 +42,30 @@ top:0;
 
 #logo  {
 background-image:url(images/logoheader.png);
-width: 150px;
-height: 150px;
+width: 114px;
+height: 114px;
 background-repeat: no-repeat;
 margin-left:40px;
+margin-top:8px;
 }
 
 
 #menuresponsive {
-  position: relative;
+ position: relative;
   
 }
 
 #menu {
-margin-top: -60px;
 margin-left:180px;
 position : absolute;
-bottom : 0;
+bottom : 35px;
 left:0;
 }
 
 li a {
 color:#95846d;
 font-family: 'Oswald', sans-serif;
-font-size: 18px;
+font-size: 15px;
 text-decoration:none;
 }
 
@@ -64,16 +73,16 @@ li a:hover {
 color:#f16529;
 text-decoration:none;
 font-family: 'Oswald', sans-serif;
-font-size: 18px;
+font-size: 15px;
 }
 
 #menu li {
 border-radius:3px;
-height:20px;
-padding:10px;
-padding-top:5px;
+height:16px;
+padding:7px;
+padding-top:3px;
 background-color: #484237;
-margin:4px;
+margin:3px;
 -moz-box-shadow: 0px 3px 0px 0px #3e392f;
 -webkit-box-shadow: 0px 3px 0px 0px #3e392f;
 -o-box-shadow: 0px 3px 0px 0px #3e392f;
@@ -92,21 +101,30 @@ font-style : italic;
 
 }
 
-#contenant {
-	
-	margin-top :180px;
+h1 + p {
+padding-bottom:18px;
+padding-top:10px;
+}
+
+#contenant {	
+margin-top :140px;
 }
 
 #page
 {
+font-family: 'Droid Serif', serif;
+font-size:15px;
+color:#17140f;
+padding:10px;
 padding-left: 1%;
 border-radius : 10px/10px;
-margin: 0 8%;
+margin: 0 18%;
 background-color : #EFD9BB;
-
-box-shadow: 0px 2px 5px #1c1a19;
-border-radius: 5px;
-
+-moz-box-shadow: 0px 3px 0px 0px #53493c;
+-webkit-box-shadow: 0px 3px 0px 0px #53493c;
+-o-box-shadow: 0px 3px 0px 0px #53493c;
+box-shadow: 0px 3px 0px 0px #53493c;
+border-radius: 4px;
 }
 
 
@@ -124,5 +142,43 @@ ul li{
 	list-style-image : url(puces.png)
 }
 
-
+#footer {
+background-color:#504a3f;
+margin-bottom:0;
+height:90px;
+margin-top:40px;
+padding:7px;
+font-family: 'Montserrat', sans-serif;
+font-size:12px;
 }
+#logof {
+background-image:url(images/footer.png);
+height:69px;
+width:392px;
+}
+
+/*Formulaire*/
+
+
+
+#FormSinscrire{
+	margin-left: 400px;
+	margin-right : 400px;
+	
+	padding-left : 15px;
+	background-color : #665E51;
+	border-radius: 5px;
+	
+}
+
+#FormSeConnecter{
+	margin-top :10px;
+	margin-left: 400px;
+	margin-right : 400px;
+	padding-left : 15px;
+	background-color : #665E51;
+	border-radius: 5px;
+	
+	}
+	
+	/*Fin formulaire*/
