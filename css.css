@@ -7,6 +7,9 @@ margin-right:0;
 margin-bottom:0;
 }
 
+a {
+color: #e44d26;
+}
 
 body {
 background-color: #73695b;
@@ -29,6 +32,20 @@ text-align:center;
 color:#e44d26;
 text-shadow: 1px 1px #fff7ec;
 font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+font-size:20px;
+color:#5e0000;
+}
+
+.note {
+background-color:#d14b4b;
+padding:8px;
+font-size:12px;
+color:#fdb8b8;
+border-radius:3px;
+margin-bottom:10px;
 }
 
 /*Menu*/
@@ -164,7 +181,7 @@ width:392px;
 #FormSinscrire{
 	margin-left: 400px;
 	margin-right : 400px;
-	
+	margin-top : 0px;
 	padding-left : 15px;
 	background-color : #665E51;
 	border-radius: 5px;
@@ -180,5 +197,17 @@ width:392px;
 	border-radius: 5px;
 	
 	}
+	 
+#pcenter{
+	text-align:center;
+	font-family: 'Droid Serif', serif;
+	color :#F0D9BA;
+	margin-bottom : 10px;
+	
+	
+	
+}
+
 	
 	/*Fin formulaire*/
+
