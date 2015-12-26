@@ -160,6 +160,13 @@ ul li{
 	list-style-image : url(puces.png)
 }
 
+#imagedebpage{
+	width :200px;
+	height:100px;
+	padding-left :40%;
+	
+}
+
 #footer {
 background-color:#504a3f;
 margin-bottom:0;
