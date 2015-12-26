@@ -9,6 +9,7 @@ margin-bottom:0;
 
 a {
 color: #e44d26;
+text-decoration:none;
 }
 
 body {
@@ -75,7 +76,7 @@ margin-top:8px;
 #menu {
 margin-left:180px;
 position : absolute;
-bottom : 35px;
+bottom :35px;
 left:0;
 }
 
@@ -174,6 +175,25 @@ height:69px;
 width:392px;
 }
 
+#indisponible{
+	
+	text-align:center;
+	font-family: 'Droid Serif', serif;
+	color :#F0D9BA;
+	font-size : 20px;
+	padding-top : 50px;
+	
+	
+}
+img#construction{
+	
+	padding-top :50px;
+	margin-left :42%;
+	margin-right:45%;
+	position:relative;
+}
+
+
 /*Formulaire*/
 
 
@@ -181,7 +201,7 @@ width:392px;
 #FormSinscrire{
 	margin-left: 400px;
 	margin-right : 400px;
-	margin-top : 0px;
+	margin-top : 50px;
 	padding-left : 15px;
 	background-color : #665E51;
 	border-radius: 5px;
@@ -189,7 +209,7 @@ width:392px;
 }
 
 #FormSeConnecter{
-	margin-top :10px;
+	margin-top :70px;
 	margin-left: 400px;
 	margin-right : 400px;
 	padding-left : 15px;
@@ -204,9 +224,9 @@ width:392px;
 	color :#F0D9BA;
 	margin-bottom : 10px;
 	
-	
-	
 }
+
+
 
 	
 	/*Fin formulaire*/
