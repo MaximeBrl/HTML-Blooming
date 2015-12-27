@@ -48,5 +48,23 @@ padding-left:33%;
 
 a:hover{
 	
-	opacity: 0.2;
+	opacity: 0.5;
+}
+
+#footer2 {
+height:90px;
+margin-top:40px;
+font-family: 'Montserrat', sans-serif;
+font-size:12px;
+text-align:center;
+}
+#logof {
+background-image:url(images/footer.png);
+height:69px;
+width:392px;
+}
+
+#footercenter{
+margin:0;
+display:inline-block;
 }

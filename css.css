@@ -195,7 +195,9 @@ margin-top:40px;
 padding:7px;
 font-family: 'Montserrat', sans-serif;
 font-size:12px;
+text-align:center;
 }
+
 #logof {
 background-image:url(images/footer.png);
 height:69px;
@@ -203,9 +205,8 @@ width:392px;
 }
 
 #footercenter{
-	
-	padding-left:35%;
-	padding-right:30%;
+margin:0;
+display:inline-block;
 }
 
 #indisponible{
@@ -221,11 +222,14 @@ width:392px;
 img#construction{
 	
 	padding-top :50px;
-	margin-left :42%;
-	margin-right:45%;
+	display:inline-block;
 	position:relative;
 }
-
+#contenantf{
+	
+	margin-top :140px;
+	text-align:center;
+}
 
 /*Formulaire*/
 
@@ -241,6 +245,7 @@ img#construction{
 	font-family: 'Droid Serif', serif;
 	font-size:13px;
 	padding:15px;
+	color:#211d17;
 	
 }
 
@@ -253,8 +258,8 @@ img#construction{
 	border-radius: 4px;
 	font-family: 'Droid Serif', serif;
 	font-size:13px;
-	padding:15px
-	
+	padding:15px;
+	color:#211d17;
 	}
 	 
 #pcenter{
@@ -262,10 +267,36 @@ img#construction{
 	font-family: 'Droid Serif', serif;
 	color :#F0D9BA;
 	margin-bottom:10px;
-	
 }
 
+input {
+border-radius:2px;
+border:none;
+padding:2px;
+margin-bottom:4px;
+margin-top:2px;
+color:#da380f;
+}
+select {
+border-radius:2px;
+border:none;
+padding:2px;
+margin-bottom:4px;
+margin-top:2px;
+color:#da380f;
+}
+#bouton a {
+background-color:#433c30;
+padding:5px;
+border-radius:2px;
+color:#fda352;
+}
 
+#bouton a:hover {
+background-color:#f16529;
+border-radius:2px;
+color:#efd9bb;
+}
 
 	
 	/*Fin formulaire*/
