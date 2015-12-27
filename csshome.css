@@ -1,0 +1,42 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+* {
+border:none;
+}
+body {
+background-color: #73695b;
+}
+
+#logo {
+text-align:center;
+margin-top:100px;
+}
+
+a img {
+border:none;
+text-decoration:none;
+}
+
+p {
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+}
+
+#logo1{
+border:none;
+}
+a {
+color:#efd9bb;
+text-decoration:none;
+text-shadow: 1px 1px #574e42;
+border:none;
+}
+
+a:hover #logo1{
+background-image:url('images/logohover.png');
+}
+
+a:hover p {
+color:#f16529;
+}
+

@@ -40,6 +40,12 @@ font-size:20px;
 color:#5e0000;
 }
 
+h3 {
+font-size:18px;
+color :#F0D9BA;
+font-family: 'Montserrat', sans-serif;
+}
+
 .note {
 background-color:#d14b4b;
 padding:8px;
@@ -109,6 +115,17 @@ list-style-type: none;
 display : inline-block;
 }
 
+.adresse  {
+color:#920000;
+font-weight:bold;
+}
+
+.photo { 
+float:right;
+margin-right:30px;
+margin-top:-115px;
+}
+
 
 /*Fin Menu*/
 
@@ -118,6 +135,8 @@ display : inline-block;
 font-style : italic;
 
 }
+
+
 
 h1 + p {
 padding-bottom:18px;
@@ -167,6 +186,7 @@ ul li{
 	
 }
 
+
 #footer {
 background-color:#504a3f;
 margin-bottom:0;
@@ -180,6 +200,12 @@ font-size:12px;
 background-image:url(images/footer.png);
 height:69px;
 width:392px;
+}
+
+#footercenter{
+	
+	padding-left:35%;
+	padding-right:30%;
 }
 
 #indisponible{
@@ -211,7 +237,10 @@ img#construction{
 	margin-top : 50px;
 	padding-left : 15px;
 	background-color : #665E51;
-	border-radius: 5px;
+	border-radius: 4px;
+	font-family: 'Droid Serif', serif;
+	font-size:13px;
+	padding:15px;
 	
 }
 
@@ -221,7 +250,10 @@ img#construction{
 	margin-right : 400px;
 	padding-left : 15px;
 	background-color : #665E51;
-	border-radius: 5px;
+	border-radius: 4px;
+	font-family: 'Droid Serif', serif;
+	font-size:13px;
+	padding:15px
 	
 	}
 	 
@@ -229,7 +261,7 @@ img#construction{
 	text-align:center;
 	font-family: 'Droid Serif', serif;
 	color :#F0D9BA;
-	margin-bottom : 10px;
+	margin-bottom:10px;
 	
 }
 
