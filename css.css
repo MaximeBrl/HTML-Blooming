@@ -31,7 +31,7 @@ h1 {
 font-size:23px;
 text-align:center;
 color:#e44d26;
-text-shadow: 1px 1px #fff7ec;
+text-shadow: 0px 1px #fff7ec;
 font-family: 'Montserrat', sans-serif;
 }
 
@@ -115,16 +115,7 @@ list-style-type: none;
 display : inline-block;
 }
 
-.adresse  {
-color:#920000;
-font-weight:bold;
-}
 
-.photo { 
-float:right;
-margin-right:30px;
-margin-top:-115px;
-}
 
 
 /*Fin Menu*/
@@ -154,7 +145,6 @@ font-size:15px;
 color:#17140f;
 padding:10px;
 padding-left: 1%;
-border-radius : 10px/10px;
 margin: 0 18%;
 background-color : #EFD9BB;
 -moz-box-shadow: 0px 3px 0px 0px #53493c;
@@ -164,6 +154,17 @@ box-shadow: 0px 3px 0px 0px #53493c;
 border-radius: 4px;
 }
 
+#page2
+{
+font-family: 'Droid Serif', serif;
+font-size:15px;
+padding:15px;
+padding-left: 1%;
+margin: 0 18%;
+background-color : #665E51;
+border-radius: 4px;
+margin-bottom:30px;
+}
 
 
 li img {
@@ -182,8 +183,25 @@ ul li{
 #imagedebpage{
 	width :200px;
 	height:100px;
-	padding-left :40%;
+	display:inline-block;
+}
+
+#protocoleimg{
 	
+	display:inline-block;
+}
+
+#imageweb {text-align:center;}
+
+.adresse  {
+color:#920000;
+font-weight:bold;
+}
+
+.photo { 
+float:right;
+margin-right:30px;
+margin-top:-115px;
 }
 
 
@@ -236,29 +254,17 @@ img#construction{
 
 
 #FormSinscrire{
-	margin-left: 400px;
-	margin-right : 400px;
-	margin-top : 50px;
-	padding-left : 15px;
-	background-color : #665E51;
 	border-radius: 4px;
-	font-family: 'Droid Serif', serif;
 	font-size:13px;
-	padding:15px;
 	color:#211d17;
-	
+	padding-left : 15px;
 }
 
 #FormSeConnecter{
-	margin-top :70px;
-	margin-left: 400px;
-	margin-right : 400px;
 	padding-left : 15px;
-	background-color : #665E51;
 	border-radius: 4px;
 	font-family: 'Droid Serif', serif;
 	font-size:13px;
-	padding:15px;
 	color:#211d17;
 	}
 	 
