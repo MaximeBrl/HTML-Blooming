@@ -192,8 +192,20 @@ ul li{
 	display:inline-block;
 	 max-width: 100%;
 }
+#cssimg{
+	
+	display:inline-block;
+	 max-width: 100%;
+	 width: 300px;
+}
 
-#imageweb {text-align:center; 
+#baliseimg{
+	
+	display:inline-block;
+	 max-width: 100%;
+}
+
+.imageweb {text-align:center; 
  max-width: 100%;}
 
 .adresse  {
