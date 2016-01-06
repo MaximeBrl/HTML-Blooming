@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+﻿@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 *{
 text-align:center;
@@ -20,7 +20,7 @@ position:relative;
 }
 
 a + a {
-padding:80px;
+padding-left:80px;
 }
 
 #footer2 {
